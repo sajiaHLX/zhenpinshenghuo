@@ -50,6 +50,8 @@
   font-weight: bold;
   height: 38px;
   line-height:38px;
+  user-select: none;
+  cursor: pointer;
 }
 .loginForm input{
   height: 48px;

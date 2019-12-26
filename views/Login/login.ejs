@@ -16,16 +16,16 @@
           </div>
           <form class="loginForm" action="" onsubmit="false">
             <div class="phoneNum">
-              <input type="text" placeholder="手机号">
+              <input type="text" id="phoneNum" placeholder="手机号">
             </div>
             <div class="verification">
-              <input type="text" placeholder="请输入验证码">
+              <input id="verification" type="text" placeholder="请输入验证码">
               <div  class="getverification">
-                <span>发送验证码</span>
+                <span id="getVerification">发送验证码</span>
               </div>
             </div>
             <div class="loginButton">
-              <button>登录</button>
+              <button type="button" id="login">登录</button>
             </div>
           </form>
         </div>
@@ -34,3 +34,38 @@
     <%include ../footer/footer.ejs %>
   </body>
 </html>
+<script src="js/jquery.js"></script>
+<script>
+  $(function(){
+    $("#getVerification").click(function () { 
+      let phoneNum = $("#phoneNum").val() 
+      console.log(phoneNum);
+      $.ajax({
+        type:"GET",
+        url:"/phone/data",
+        data:{
+          phone : phoneNum
+        },
+        success:function (data) {  
+          console.log(data);
+        }
+      })
+
+    })
+    $('#login').click(function(){
+      let phoneNum = $("#phoneNum").val()
+      let verification=$("#verification").val();
+      $.ajax({
+        url:'/phone/check',
+        method:'GET',
+        data:{
+          phoneNum,
+          verification
+        },
+        success:function(data){
+          console.log(data);
+        }
+      })
+    })
+  })
+</script>
