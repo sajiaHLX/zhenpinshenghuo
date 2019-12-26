@@ -1,0 +1,35 @@
+#footer{
+  background-color: #333333;
+  color: #9a9a9a;
+  /* margin-top: 60px; */
+  padding-top: 60px;
+}
+footer .wrap .fLogo .banner img{
+  width: 60px;
+  height: 60px;
+}
+footer .fNav{
+  margin: 25px 0;
+  color: #9a9a9a;
+}
+footer .fNav a{
+  color: #9a9a9a;
+}
+footer .fNav li{
+  display: inline-block;
+  padding: 0 25px;
+  float: none;
+  font-size: 14px;
+}
+footer .footInfo{
+  line-height: 21px;
+  color: #9a9a9a;
+  font-size: 12px;
+}
+footer .footCopy{
+  border-top: 1px solid #616161;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  font-size: 10px;
+  padding-top: 9px;
+}

@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+a,ins{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #ffffff;
+  color: #684029;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.tc{
+  text-align: center;
+}
+.l{
+  float: left;
+}
+.r{
+  float: right;
+}
+.wrap{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfix::after{
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix{
+  *zoom: 1;
+}
+input{
+  background: none;
+  outline: none;
+  border: none;
+}

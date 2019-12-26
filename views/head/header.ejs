@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="css/header.css">
+
+<header>
+  <div class="headerBox">
+    <div class="wrap">
+      <!-- logo -->
+      <div class="logo l">
+        <a href="#">
+          <img src="img/logo.jpg" alt="">
+        </a>
+      </div>
+      <!-- 导航部分 -->
+      <div class="nav l">
+        <ul>
+          <li><a href="/">首页</a></li>
+          <li><a href="">产品中心</a></li>
+          <li><a href="">套餐组合</a></li>
+          <li><a href="">会员中心</a></li>
+          <li><a href="">帮助中心</a></li>
+          <li><a href="">关于我们</a></li>
+        </ul>
+      </div>
+      <!-- 右侧部分 -->
+      <div class="buyTools r">
+        <ul>
+          <li class="mobile">
+            <span>移动端</span>
+            <div class="dorpdownLayer">
+              <img src="img/mobile.png" alt="">
+            </div>
+          </li>
+          <li>
+            <div class="myFont">
+              我的
+              <img src="img/xiajiantou.png" class="ci-right" alt="">
+              <div class="dorpdownLayer">
+                <div class="item"><a href="">帮助中心</a></div>
+                <div class="item"><a href="">我的订单</a></div>
+                <div class="item"><a href="">我的收藏</a></div>
+                <div class="item"><a href="">会员中心</a></div>
+              </div>
+            </div>
+          </li>
+          <li><a href="/login">登录</a>/
+            <a href="">注册</a>
+          </li>
+          <li class="shopCar">
+            <img src="img/gouwuchekong.png" alt="">
+            <b>0</b>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script src="js/jquery.js"></script>
+<script>
+  $(function(){
+    $(".mobile,.myFont").hover(function () {  
+      $(this).find(".dorpdownLayer").show();
+    },function () {  
+      $(this).find(".dorpdownLayer").hide();
+    })
+  })
+</script>

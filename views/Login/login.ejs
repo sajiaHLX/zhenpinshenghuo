@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>登录</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <%include ../head/header.ejs %>
+  
+    <div class="container">
+      <div class="wrap">
+        <div class="loginArticle">
+          <div class="loginTitle">
+            <h2>登录/注册</h2>
+          </div>
+          <form class="loginForm" action="" onsubmit="false">
+            <div class="phoneNum">
+              <input type="text" placeholder="手机号">
+            </div>
+            <div class="verification">
+              <input type="text" placeholder="请输入验证码">
+              <div  class="getverification">
+                <span>发送验证码</span>
+              </div>
+            </div>
+            <div class="loginButton">
+              <button>登录</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <%include ../footer/footer.ejs %>
+  </body>
+</html>

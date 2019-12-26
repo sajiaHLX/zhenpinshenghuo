@@ -1,0 +1,77 @@
+.floorList{
+  width: 1100px;
+  margin: 0 auto;
+}
+.floorList .adHd{
+  margin-bottom: 20px;
+  margin-top: 60px;
+  line-height: 26px;
+  font-size: 26px;
+  font-weight: normal;
+  color: #724228;
+}
+.floorList .adHd span{
+  font-size: 14px;
+}
+.goodlist{
+  margin-top: 20px;
+}
+.goodItem{
+  float: left;
+  width: 263px;
+  margin-right: 16px;
+}
+.goodItem:nth-child(4){
+  margin-right: 0;
+}
+.goodItem .goodImg img{
+  width: 263px;
+  height: 263px;
+}
+.goodItem .goodName{
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  height: 45px;
+}
+.goodItem .goodName a{
+  color: #724228;
+}
+.goodItem .goodTags{
+  line-height: 36px;
+  height: 36px;
+}
+.goodItem .goodTags span{
+  display: inline-block;
+  background-color: #eeeeee;
+  opacity: 1;
+  border: 1px solid #D5BFA7;
+  border-radius: 9px;
+  padding: 0 6px 0 8px;
+  margin: 8px 3px;
+  line-height: 18px;
+}
+.goodItem .goodPrice{
+  border-top: 1px dashed #D5BFA7;
+  line-height: 27px;
+  margin-top: 6px;
+  padding-top: 14px;
+}
+.goodItem .goodPrice ins del{
+  display: inline-block;
+  line-height: 20px;
+  color: #D5BFA7;
+  font-size: 14px;
+  font-weight: normal;
+}
+.goodItem .goodPrice a{
+  vertical-align: middle;
+  float: right;
+  display: inline-block;
+  background-color: #643E28;
+  line-height: 20px;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 0 10px;
+  margin-top: 4px;
+}

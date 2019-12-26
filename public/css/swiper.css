@@ -1,0 +1,26 @@
+.advertisement{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 900px;
+}
+.advertisement .ad-cviewbox{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: visible;
+  position: relative;
+}
+.swiper-container{
+  width: 1920px;
+  position: absolute;
+  /* z-index: 2; */
+  left: -360px;
+}
+.swiper-pagination-bullet-active{
+  background: #442818;
+}
+.swiper-pagination-bullet{
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+}

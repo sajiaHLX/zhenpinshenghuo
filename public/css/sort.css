@@ -1,0 +1,9 @@
+.sort{
+  /* display: block; */
+  overflow: hidden;
+  width: 1110px;
+  margin: 40px auto 0;
+}
+.sortItem{
+  margin: 0 10px;
+}
